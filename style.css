@@ -1,5 +1,5 @@
 body{
-    background-color: #13141b;
+    background-color: rgb(64, 20, 134);
     color: #ffffff;
     background-image: url(images/bg-image.png);
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@ body{
 }
 
 .form-control{
-    background-color:rgba(255, 255, 255, 0.2);
+    background-color:rgba(141, 134, 134, 0.25);
     padding: 22px;
     border: none;
     border-radius: 25px;
@@ -17,9 +17,16 @@ body{
     border-radius: 1.5rem;
     padding: 9px 20px;
 }
+.btn:hover {
+    background: #e60073;
+    font-weight: bold;
+    color: #ffff00;
+    transition: 0.5s;
+
+}
 
 .btn-privious{
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(141, 134, 134, 0.25);
     color: #ffffff;
 }
 .navbar-toggler {
@@ -34,18 +41,22 @@ body{
     right: 0;
     height: 100%;
 }
+.search-btn:hover {
+    background: #e60073;
+    font-weight: bold;
+    color: #ffff00;
+}
+
 .single-result{
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(141, 134, 134, 0.25);
     border-radius: 15px;
 }
 
-/* my extra layout */
+/* extra layout */
 #songSuggestionList, #lyricsSongSuggestionList, #lyricsContent {
     display:none;
 }
-/* #textContent1,#textContent2,#textContent3,#textContent4,#textContent5,#textContent6, #textContent7,#textContent8,#textContent9,#textContent10,#textContent11,#textContent12,#textContent13,#textContent14{
-    display:none
-} */
+
 
 .stylishTextContent{
     text-align:center;
